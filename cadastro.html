@@ -1,24 +1,59 @@
 <html>
-   <body>
-        <h1>Cadastro</h1>
+    <head>
+        <style>
+            body{
+                background-color: rgb(196, 149, 157);
+                text-align: center;
+                }
+            h1{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                text-transform: uppercase;
+            }
+            form{
+                border-style: dashed;
+                display: inline-block; width: 300px;
+                border-radius: 30%;
+                font-weight: bold;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+        </style>
+    </head>
+    
+    <body>
+        <h1>
+            Cadastro
+        </h1>
         <form action="sucesso.html">
-            <lable for="nome">Nome</lable>
+            <br/>
+            <br/>
+            <lable for="nome">
+                Nome
+            </lable>
             <input name="nome" type="text"/>
             <br/>
             <br/>
-            <lable for="nascimento">Nascimento</lable>
+            <lable for="nascimento">
+                Nascimento
+            </lable>
             <input name="nascimento" type="date"/>
             <br/>
             <br/>
-            <lable for="email">Email</lable>
+            <lable for="email">
+                Email
+            </lable>
             <input name="email" type="email"/>
             <br/>
             <br/>
-            <lable for="senha">Senha</lable>
+            <lable for="senha">
+                Senha
+            </lable>
             <input name="senha" type="password"/>
+            <br/>
             <br/>
             <input value="Cadastrar" type="submit"/>
             <input value="Limpar" type="reset">
+            <br/>
+            <br/>
 
         </form>
    </body>
